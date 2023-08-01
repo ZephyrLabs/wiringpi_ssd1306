@@ -14,7 +14,7 @@ the SSD1306 display over i2C.
     * **SCL:** pin 22 (I2C_M3)
     * **SDA:** pin 23 (I2C_M3)
 
-* Khadas VIM3
+* Khadas VIM4
     * default configuration: /dev/i2c-0
     * **SCL:** pin 25 (I2C_MA)
     * **SDA:** pin 26 (I2C_MA)
