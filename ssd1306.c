@@ -118,7 +118,7 @@ void drawLine(int x0, int y0, int x1, int y1) {
 
 void drawCharacter(int x, int y, char character) {
     if (character < 32 || character > 127) {
-        // haracter is not in the printable ASCII range, so we won't draw anything.
+        // Character is not in the printable ASCII range, so we won't draw anything.
         return;
     }
 

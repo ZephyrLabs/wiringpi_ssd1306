@@ -4,7 +4,7 @@ the SSD1306 display over i2C.
 
 * supports the 128x64 resolution version of the display
 * default i2C address is `0x3c` (this can be changed in ssd1306.h)
-* uses the default i2C adapted provided by the Wiring Pi library (depends on your platform ?)
+* uses the default i2C adapter provided by the Wiring Pi library (depends on your platform ?)
 * display refresh with a framebuffer callback
 * some basic GFX methods (draw lines, strings, bitmap images, etc.)
 

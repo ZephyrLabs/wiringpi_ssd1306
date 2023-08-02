@@ -47,20 +47,20 @@ int main()
 
     // draw some lines
     printf("Draw Some lines\n");
-    clearBuffer();
+    clearFrameBuffer();
     for(int i = 0; i < 64; i+=4) {drawLine(0, 0, 127, i);}
     for(int i = 128; i > 0; i-=4) {drawLine(0, 0, i, 64);}
     display();
     delay(2000);
 
     // draw a bitmap
-    clearBuffer();
+    clearFrameBuffer();
     drawBitmap(0, 0, bitmap_data, 128, 64);
     display();
     delay(2000);
 
     // write some text
-    clearBuffer();
+    clearFrameBuffer();
     drawString(0, 0, sample_text);
     display();
     delay(2000);
