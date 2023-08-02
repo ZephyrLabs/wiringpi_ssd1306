@@ -66,7 +66,7 @@ int main()
     delay(2000);
 
     // clear everything
-    clearBuffer();
+    clearFrameBuffer();
     display();
 
 	exit(0);
